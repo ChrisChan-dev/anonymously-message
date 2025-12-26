@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Thoughts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="starfield"></div>
+    <div id="thought-stream"></div>
+
+    <main class="interface-container">
+        <h1>Leave a message in space</h1>
+        <div class="input-wrapper">
+            <input type="text" id="messageInput" placeholder="Type your thought here..." maxlength="60" autocomplete="off">
+            <div class="char-count"><span id="charNum">0</span>/60</div>
+            <button id="sendBtn">Send</button>
+        </div>
+    </main>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
